@@ -15,3 +15,30 @@
 .nav-link {
     cursor: pointer;
 }
+
+.sidenav {
+    width: 140px;
+    position: fixed;
+    z-index: 1;
+    background-color: #1b2836;
+    overflow-x: hidden;
+    padding: 8px 8px;
+    height: 100%;
+}
+.sidenav-item {
+    cursor: pointer;
+    text-align: center;
+}
+.sidenav-item > img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+.sidenav-item:hover {
+    border: 1px solid green;
+}
+
+.main {
+    margin-left: 130px;
+    padding: 0px 10px;
+}

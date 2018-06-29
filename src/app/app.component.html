@@ -1,37 +1,28 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Stepr</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-      
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" (click)="about()">About</a>
-            </li>
-        </ul>
-        <ul class="navbar-nav">
-            <li>
-                <img src="https://avatars1.githubusercontent.com/u/11674307?s=460&v=4" width="35px;" height="35px;" alt="" class="rounded-circle">
-            </li>
-        </ul>
-    </div>
-</nav>
+<div class="sidenav">
+    <ul class="list-group">
+        <li class="list-group-item sidenav-item">
+            <img src="https://avatars1.githubusercontent.com/u/11674307?s=460&v=4" width="35px;" height="35px;" alt="" class="rounded-circle">
+        </li>
+        <li class="list-group-item sidenav-item" (click)="about()">About</li>
+    </ul>
+</div>
 
-<div class="container">
-    <div class="row">
-        <div class="col-6 col-md-4">
-            <br />
-            <h6>My Steps</h6>
-            <small style="color: white;">{{today | date:'full'}}</small>
-            <app-steplist></app-steplist>
-            <!-- <app-upload></app-upload> -->
+<div class="main">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-md-4">
+                <br />
+                <h6>My Steps</h6>
+                <small style="color: white;">{{today | date:'full'}}</small>
+                <app-steplist></app-steplist>
+                <!-- <app-upload></app-upload> -->
+            </div>
+            <div class="col-12 col-md-8 step-dashboard">
+                <app-board></app-board>
+            </div>
         </div>
-        <div class="col-12 col-md-8 step-dashboard">
-            <app-board></app-board>
+        <div class="footer">
+            Stepr v1.0 by Vincent Nacar
         </div>
-    </div>
-    <div class="footer">
-        Stepr v1.0 by Vincent Nacar
     </div>
 </div>
