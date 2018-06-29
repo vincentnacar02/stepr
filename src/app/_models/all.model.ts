@@ -4,7 +4,8 @@ export interface Step {
     stepTextBody: string,
     stepTask?: Task[],
     stepTime: StepTime,
-    canSkip: boolean
+    canSkip: boolean,
+    progress: number
 }
 
 export interface Task {

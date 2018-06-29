@@ -7,6 +7,7 @@
           {{ item.stepTime.from }} - {{ item.stepTime.to }}
       </span>
       <span class="badge badge-light">Tasks: {{ item.stepTask.length }}</span>
-      <span class="badge badge-pill badge-success">90%</span>
+      <span class="badge badge-pill badge-success" *ngIf="item.progress == 100">{{ item.progress }}%</span>
+      <span class="badge badge-pill badge-info" *ngIf="item.progress < 100">{{ item.progress }}%</span>
   </div>
 </div>

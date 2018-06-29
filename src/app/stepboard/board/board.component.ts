@@ -45,6 +45,7 @@ export class BoardComponent implements OnInit {
           this.progress = 0;
         }
         console.log(this.progress);
+        this.step.progress = this.progress;
       });
     }
   }
