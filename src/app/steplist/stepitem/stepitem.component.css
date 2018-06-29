@@ -8,5 +8,5 @@
 }
 .card-item-selected {
     cursor: pointer;
-    border: 1px solid green;
+    border: 2px solid green;
 }
