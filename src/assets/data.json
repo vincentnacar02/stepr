@@ -21,10 +21,34 @@
 				"isCompleted": false
 			}
 		],
+		"stepTime": {
+			"from": "8:00 AM",
+			"to": "9:00 AM"
+		},
 		"canSkip": false
 	},
 	{
 		"orderNumber": 1,
+		"stepDescription": "Attend Standup Meeting",
+		"stepTextBody": "Some motivational notes goes here, Lol!",
+		"stepTask": [
+			{
+				"taskDescription": "Discuss awesome ideas",
+				"isCompleted": false
+			},
+			{
+				"taskDescription": "Sing them a song",
+				"isCompleted": false
+			}
+		],
+		"stepTime": {
+			"from": "8:00 AM",
+			"to": "9:00 AM"
+		},
+		"canSkip": true
+	},
+	{
+		"orderNumber": 2,
 		"stepDescription": "Code",
 		"stepTextBody": "Some motivational notes goes here, Lol!",
 		"stepTask": [
@@ -37,10 +61,14 @@
 				"isCompleted": false
 			}
 		],
+		"stepTime": {
+			"from": "8:00 AM",
+			"to": "9:00 AM"
+		},
 		"canSkip": true
 	},
 	{
-		"orderNumber": 2,
+		"orderNumber": 3,
 		"stepDescription": "Eat Lunch",
 		"stepTextBody": "Some motivational notes goes here, Lol!",
 		"stepTask": [
@@ -53,10 +81,14 @@
 				"isCompleted": false
 			}
 		],
+		"stepTime": {
+			"from": "8:00 AM",
+			"to": "9:00 AM"
+		},
 		"canSkip": false
 	},
 	{
-		"orderNumber": 3,
+		"orderNumber": 4,
 		"stepDescription": "Code Again",
 		"stepTextBody": "Some motivational notes goes here, Lol!",
 		"stepTask": [
@@ -69,10 +101,14 @@
 				"isCompleted": false
 			}
 		],
+		"stepTime": {
+			"from": "8:00 AM",
+			"to": "9:00 AM"
+		},
 		"canSkip": true
 	},
 	{
-		"orderNumber": 3,
+		"orderNumber": 5,
 		"stepDescription": "Dinner",
 		"stepTextBody": "Some motivational notes goes here, Lol!",
 		"stepTask": [
@@ -85,10 +121,14 @@
 				"isCompleted": false
 			}
 		],
+		"stepTime": {
+			"from": "8:00 AM",
+			"to": "9:00 AM"
+		},
 		"canSkip": true
 	},
 	{
-		"orderNumber": 3,
+		"orderNumber": 6,
 		"stepDescription": "Watch Movies",
 		"stepTextBody": "Some motivational notes goes here, Lol!",
 		"stepTask": [
@@ -101,10 +141,14 @@
 				"isCompleted": false
 			}
 		],
+		"stepTime": {
+			"from": "8:00 AM",
+			"to": "9:00 AM"
+		},
 		"canSkip": true
 	},
 	{
-		"orderNumber": 3,
+		"orderNumber": 7,
 		"stepDescription": "Sleep",
 		"stepTextBody": "Some motivational notes goes here, Lol!",
 		"stepTask": [
@@ -117,6 +161,10 @@
 				"isCompleted": false
 			}
 		],
+		"stepTime": {
+			"from": "8:00 AM",
+			"to": "9:00 AM"
+		},
 		"canSkip": true
 	}
 ]

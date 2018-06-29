@@ -1,4 +1,8 @@
 .scrollable-list {
     height: 590px;
     overflow-y: auto;
+    border-radius: 5px; 
+}
+.scrollable-list > li {
+    background-color:#1b2836;
 }

@@ -22,8 +22,4 @@ export class SteplistComponent implements OnInit {
     });
   }
 
-  select(step: Step) {
-    this.stepService.select(step);
-  }
-
 }

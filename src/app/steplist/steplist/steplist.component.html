@@ -1,9 +1,7 @@
 <ul class="list-group scrollable-list">
+
   <li class="list-group-item" *ngFor="let item of steps$ | async">
-    <button class="btn btn-outline-success" (click)="select(item)">
-        <span class="badge badge-danger">8:00 AM</span>
-        {{ item.stepDescription }}
-        <span class="badge badge-light">{{ item.stepTask.length }}</span>
-    </button>
+    <app-stepitem [item]="item"></app-stepitem>
   </li>
+
 </ul>

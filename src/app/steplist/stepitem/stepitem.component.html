@@ -1,0 +1,12 @@
+<div [ngClass]="selectedStep && selectedStep.orderNumber == item.orderNumber ? 'card card-item-selected' : 'card card-step'" (click)="select(item)">
+  <div class="card-body">
+    <h6 class="card-title">{{ item.stepDescription }}</h6>
+  </div>
+  <div class="card-footer">
+      <span class="badge badge-danger" *ngIf="item.stepTime">
+          {{ item.stepTime.from }} - {{ item.stepTime.to }}
+      </span>
+      <span class="badge badge-light">Tasks: {{ item.stepTask.length }}</span>
+      <span class="badge badge-pill badge-success">90%</span>
+  </div>
+</div>

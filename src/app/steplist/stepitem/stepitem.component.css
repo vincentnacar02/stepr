@@ -1,0 +1,9 @@
+.card-step {
+    cursor: pointer;
+    border: 1px solid black;
+    width: 100%;
+}
+.card-item-selected {
+    cursor: pointer;
+    border: 1px solid green;
+}
