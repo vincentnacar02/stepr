@@ -1,0 +1,17 @@
+<!-- <li class="list-group-item">{{ task.taskDescription }}</li> -->
+<li class="list-group-item">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+            {{ task.taskDescription }}
+        </div>
+        <div class="col-sm">
+          <span class="badge badge-success" *ngIf="task.isCompleted">Completed</span>
+          <span class="badge badge-info" *ngIf="!task.isCompleted">Not Completed</span>
+        </div>
+        <div class="col-sm">
+          <button type="button" class="btn btn-success btn-sm" *ngIf="!task.isCompleted" (click)="markCompleted()">Mark as Completed</button>
+        </div>
+      </div>
+    </div>
+</li>

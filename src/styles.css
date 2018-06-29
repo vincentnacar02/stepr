@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #141d26;
+    color: #2ecc71;
+}
+
+.card {
+    background-color: #243447;
+}
+
+.list-group > li {
+    background-color: #243447;
+}
+
+.navbar {
+    background-color: #243447 !important;
+}

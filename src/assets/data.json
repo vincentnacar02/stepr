@@ -1,0 +1,122 @@
+[
+	{
+		"orderNumber": 0,
+		"stepDescription": "Eat Breakfast and Meditate",
+		"stepTextBody": "Some motivational notes goes here, Lol!",
+		"stepTask": [
+			{
+				"taskDescription": "Eat vegetable salad",
+				"isCompleted": false
+			},
+			{
+				"taskDescription": "Drink my vitamins",
+				"isCompleted": false
+			},
+			{
+				"taskDescription": "Read coding article",
+				"isCompleted": false
+			},
+			{
+				"taskDescription": "Read coding article again",
+				"isCompleted": false
+			}
+		],
+		"canSkip": false
+	},
+	{
+		"orderNumber": 1,
+		"stepDescription": "Code",
+		"stepTextBody": "Some motivational notes goes here, Lol!",
+		"stepTask": [
+			{
+				"taskDescription": "Refactor Code",
+				"isCompleted": false
+			},
+			{
+				"taskDescription": "Document code changes",
+				"isCompleted": false
+			}
+		],
+		"canSkip": true
+	},
+	{
+		"orderNumber": 2,
+		"stepDescription": "Eat Lunch",
+		"stepTextBody": "Some motivational notes goes here, Lol!",
+		"stepTask": [
+			{
+				"taskDescription": "Drink water",
+				"isCompleted": false
+			},
+			{
+				"taskDescription": "Read coding article",
+				"isCompleted": false
+			}
+		],
+		"canSkip": false
+	},
+	{
+		"orderNumber": 3,
+		"stepDescription": "Code Again",
+		"stepTextBody": "Some motivational notes goes here, Lol!",
+		"stepTask": [
+			{
+				"taskDescription": "Refactor Code",
+				"isCompleted": false
+			},
+			{
+				"taskDescription": "Document code changes",
+				"isCompleted": false
+			}
+		],
+		"canSkip": true
+	},
+	{
+		"orderNumber": 3,
+		"stepDescription": "Dinner",
+		"stepTextBody": "Some motivational notes goes here, Lol!",
+		"stepTask": [
+			{
+				"taskDescription": "Refactor Code",
+				"isCompleted": false
+			},
+			{
+				"taskDescription": "Document code changes",
+				"isCompleted": false
+			}
+		],
+		"canSkip": true
+	},
+	{
+		"orderNumber": 3,
+		"stepDescription": "Watch Movies",
+		"stepTextBody": "Some motivational notes goes here, Lol!",
+		"stepTask": [
+			{
+				"taskDescription": "Refactor Code",
+				"isCompleted": false
+			},
+			{
+				"taskDescription": "Document code changes",
+				"isCompleted": false
+			}
+		],
+		"canSkip": true
+	},
+	{
+		"orderNumber": 3,
+		"stepDescription": "Sleep",
+		"stepTextBody": "Some motivational notes goes here, Lol!",
+		"stepTask": [
+			{
+				"taskDescription": "Refactor Code",
+				"isCompleted": false
+			},
+			{
+				"taskDescription": "Document code changes",
+				"isCompleted": false
+			}
+		],
+		"canSkip": true
+	}
+]

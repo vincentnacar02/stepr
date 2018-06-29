@@ -1,0 +1,42 @@
+<br />
+
+<div class="card scrollable-card" *ngIf="step">
+    <div class="card-body">
+      <h5 class="card-title">{{ step.stepDescription }}</h5>
+      <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+
+      <p class="card-text">{{ step.stepTextBody }}</p>
+
+      <h5>Tasks</h5>
+      <ul class="list-group scrollable-list">
+        <div *ngFor="let task of step.stepTask">
+            <app-task [task]="task" (completed)="calculateProgress()"></app-task>
+        </div>
+      </ul>
+
+      <br />
+
+      <div class="btn-group" role="group" aria-label="Options">
+          <button type="button" class="btn btn-outline-success" (click)="getPreviousStep(step.orderNumber)">Back</button>
+          <button type="button" class="btn btn-success" (click)="getNextStep(step.orderNumber)">Next Step</button>
+      </div>
+
+    </div>
+    <div class="card-footer">
+        <div class="progress" *ngIf="step">
+            <div class="progress-bar bg-success" role="progressbar" [ngStyle]="{'width': progress + '%' }" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+              {{ progress + '%' }}
+            </div>
+        </div>
+    </div>
+</div>
+
+<br />
+
+<div class="card" *ngIf="!step">
+  <div class="card-body">
+      <h5 class="card-title">Welcome to Stepr</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Step up your life!</h6>
+      <p class="card-text">Create your steps in json format and upload to proceed. Enjoy!</p>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+.card-text {
+    color: white;
+}
+
+.scrollable-card {
+    height: 640px;
+}
+
+.scrollable-list {
+    height: 370px;
+    overflow-y: auto;
+}
